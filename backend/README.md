@@ -2,8 +2,6 @@
 
 ### This is the backend of PDF Extractor project. Here is the link of frontend - https://github.com/piyushdahiya1218/pdf-extractor
 
-I'm using IronPDF library to remove pages from original PDF file. This library is not free of cost and thus gives a watermark in the converted PDF file. This watermark can be removed by purchasing a licence of their library. Alternatively, some other library could also be used.
-
 When the backend gets a request to convert the original PDF for the very first time, it downloads **IronPDF Engine** which is a part of IronPDF library. It can take upto **1 minute** to download and extract this Engine depending upon the internet connection. Once this Engine setup is done, all the subsequest requests to convert the PDF take only upto 5 seconds!
 
 Steps to setup the backend - 
